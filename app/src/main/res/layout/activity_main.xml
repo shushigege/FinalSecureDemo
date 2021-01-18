@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f6ee"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn_reg"
+        android:text="注册页面"
+        android:textColor="@color/colortext"
+        android:background="@drawable/button"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_find"
+        android:text="查询页面"
+        android:textColor="@color/colortext"
+        android:background="@drawable/button"
+        />
+   <Button
+       android:layout_marginTop="10dp"
+       android:id="@+id/btn_str"
+       android:layout_width="300dp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"
+       android:text="字符串解密"
+       android:textColor="@color/colortext"
+       android:background="@drawable/button"
+       />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_txt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="文档解密"
+        android:textColor="@color/colortext"
+        android:background="@drawable/button"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bt1_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>
